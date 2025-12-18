@@ -33,9 +33,9 @@ export default function Contact() {
 
   // Mobile positions (much tighter spacing - only 3 images)
   const mobilePositions = [
-    { tx: -5, ty: 0, rotate: -12, z: 20 },     // Left
+    { tx: -9, ty: -2, rotate: -12, z: 20 },     // Left
     { tx: 0, ty: -3, rotate: 0, z: 30 },       // Center (slightly higher)
-    { tx: 5, ty: 0, rotate: 12, z: 20 },       // Right
+    { tx: 9, ty: -2, rotate: 12, z: 20 },       // Right
   ];
 
   return (
@@ -82,7 +82,7 @@ export default function Contact() {
       </div>
       
       {/* Heading */}
-      <h2 className="font-unbounded text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-medium -mt-12 md:-mt-20 px-4">
+      <h2 className="font-unbounded text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-medium -mt-0 md:-mt-20 px-4">
         Let&apos;s create something <br />
         <span className="block gradient-text-blue font-unbounded text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-medium pt-3 md:pt-5">
           incredible together
