@@ -20,7 +20,7 @@ export default function Hero() {
           <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-unbounded font-semibold leading-tight">
             Design that feels
           </h1>
-          <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-unbounded font-semibold leading-tight gradient-text-blue pt-4 md:pt-10">
+          <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-unbounded font-semibold leading-tight gradient-text-blue md:pt-5">
             effortlessly right
           </h1>
         </div>

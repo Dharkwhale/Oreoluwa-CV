@@ -26,11 +26,10 @@ const Navbar = () => {
 
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-[100] px-4 pt-6">
-        <div className="mx-auto max-w-2xl relative">
-          
+        {/* Center the pill container */}
+        <div className="mx-auto max-w-2xl relative flex justify-center">
           {/* Nav bar */}
-          <div className="flex items-center justify-between gap-6 px-6 py-3 bg-[#f0f2e4] rounded-full border border-black/5">
-            
+          <div className="flex items-center justify-between md:justify-start gap-4 md:gap-6 px-5 py-3 bg-[#f0f2e4] rounded-full border border-black/5 w-full md:w-auto">
             {/* Logo */}
             <Link href="/" onClick={() => setIsOpen(false)}>
               <Image
