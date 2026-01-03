@@ -60,7 +60,7 @@ export default function Hero() {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1imGpjSGbGaG3jifOsY-t2wTG6ll66imL/view"
+            href="https://drive.google.com/file/d/1nsqB1T0CN0UGJp_q-N5nvh_PzXu2ohZ9/view"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[18px] sm:text-[20px] md:text-[24px] font-outfit font-normal underline px-5 py-2.5 md:px-6 md:py-3 border border-black/20 rounded-md hover:bg-black/5 transition cursor-pointer inline-block w-full sm:w-auto text-center"

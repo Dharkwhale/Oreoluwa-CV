@@ -13,7 +13,7 @@ export default function About() {
           </p>
 
           {/* Big Title */}
-          <p className="text-[40px] font-unbounded font-semibold md:text-2xl leading-tight mb-6">
+          <p className="text-[40px] font-unbounded font-semibold md:text-2xl sm:text-lg leading-tight mb-6">
             Obsessed with the details
             <br />
             <span className="gradient-text-blue">that most people miss</span>
