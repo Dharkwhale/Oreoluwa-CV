@@ -14,7 +14,7 @@ interface ProjectCardProps {
   webCaseStudyLink?: string;   
   mobileCaseStudyLink?: string;
 
-  views: string;
+  // views: string;
 }
 
 export default function ProjectCard({
@@ -29,7 +29,7 @@ export default function ProjectCard({
   webCaseStudyLink,
   mobileCaseStudyLink,
 
-  views
+  // views
 }: ProjectCardProps) {
   const hasTwoLinks = webCaseStudyLink && mobileCaseStudyLink;
 
@@ -93,13 +93,13 @@ export default function ProjectCard({
                   target="_blank"
                   className="flex items-center gap-2 text-blue-600 text-[16px] font-normal font-outfit hover:underline"
                 >
-                  View Case Study <ExternalLink size={16} />
+                  View Prototype<ExternalLink size={16} />
                 </a>
 
-                <div className="flex items-center gap-1 text-[#000000] text-[16px] font-normal font-outfit">
-                  <Eye size={16} />
-                  <span>{views}</span>
-                </div>
+                {/* <div className="flex items-center gap-1 text-[#000000] text-[16px] font-normal font-outfit"> */}
+                  {/* <Eye size={16} /> */}
+                  {/* <span>{views}</span> */}
+                {/* </div> */}
               </div>
             )}
 
@@ -113,13 +113,13 @@ export default function ProjectCard({
                     target="_blank"
                     className="flex items-center gap-2 text-blue-600 text-[16px] font-normal font-outfit hover:underline"
                   >
-                    View Web Case Study <ExternalLink size={16} />
+                    View Web Prototype <ExternalLink size={16} />
                   </a>
 
-                  <div className="flex items-center gap-1 text-[#000000] text-[16px] font-normal font-outfit">
+                  {/* <div className="flex items-center gap-1 text-[#000000] text-[16px] font-normal font-outfit">
                     <Eye size={16} />
                     <span>{views}</span>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Second line: Mobile CS */}
@@ -128,7 +128,7 @@ export default function ProjectCard({
                   target="_blank"
                   className="flex items-center gap-2 text-blue-600 text-[16px] font-normal font-outfit hover:underline mt-2"
                 >
-                  View Mobile Case Study <ExternalLink size={16} />
+                  View Mobile Prototype <ExternalLink size={16} />
                 </a>
               </>
             )}

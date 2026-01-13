@@ -13,7 +13,7 @@ export default function About() {
           </p>
 
           {/* Big Title */}
-          <p className="text-[40px] font-unbounded font-semibold md:text-2xl sm:text-lg leading-tight mb-6">
+          <p className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-unbounded font-semibold leading-tight mb-6">
             Obsessed with the details
             <br />
             <span className="gradient-text-blue">that most people miss</span>
@@ -22,7 +22,7 @@ export default function About() {
           
 
           {/* Description Paragraphs */}
-          <div className="text-[24px] max-w-5xl font-outfit font-normal md:text-lg text-black/80 leading-relaxed">
+          <div className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] max-w-5xl font-outfit font-normal text-black/80 leading-relaxed space-y-4">
             <p>
               I design digital products that solve real problems, systems where users
               need answers fast and errors aren&apos;t an option.

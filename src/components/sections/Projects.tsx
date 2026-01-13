@@ -27,7 +27,7 @@ export default function Proje() {
             tags={["Client Project", "Figma", "Web Design"]}
             year="2025"
             caseStudyLink="https://www.figma.com/proto/7HdwmdjrQ4SIFxRIxjCLvO/Rushly?node-id=1-9056&t=meC4hNeyQQlDTJ06-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-            views="3 users type, 1 seamless experience"
+            // views="3 users type, 1 seamless experience"
           />
 
           {/* 2 — PARETO */}
@@ -42,7 +42,7 @@ export default function Proje() {
             webCaseStudyLink="https://www.figma.com/proto/UFjL9ky8eWf2zRtTd7pomt/Pareto?node-id=1-310&t=ycXLyzCdLMcyQdGE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
             mobileCaseStudyLink="https://www.figma.com/proto/UFjL9ky8eWf2zRtTd7pomt/Pareto?node-id=1-4414&t=zutQNIvt7aVZcT9K-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A4197"
 
-            views="Simplified cross-border payments"
+            // views="Simplified cross-border payments"
           />
 
 
@@ -55,7 +55,7 @@ export default function Proje() {
             tags={["Agrimaster", "Figma", "Mobile Design"]}
             year="2025"
             caseStudyLink="https://www.figma.com/proto/1M6PG0iJ7VKwOlzhaelusy/Agrimaster?node-id=1-3006&p=f&t=VFINi4wCReOjLYSf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
-            views="Field-optimized interface"
+            // views="Field-optimized interface"
           />
 
           {/* 4 — CHOPAM */}
@@ -67,7 +67,7 @@ export default function Proje() {
             tags={["Mobile Design", "Fintech", "Social"]}
             year="2025"
             caseStudyLink="#"
-            views="Field-optimized interface"
+            // views="Field-optimized interface"
           />
 
         </div>

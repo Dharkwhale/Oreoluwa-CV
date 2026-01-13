@@ -12,7 +12,7 @@ export default function Hero() {
       <section className="container mx-auto text-center mt-8 md:mt-16 px-4">
         {/* Small Label */}
         <p className="text-sm md:text-lg text-[#2563eb] font-medium tracking-wide mb-8 md:mb-12">
-          ◆ PRODUCT DESIGNER
+          ◆ UI/UX DESIGNER
         </p>
 
         {/* Big heading */}
